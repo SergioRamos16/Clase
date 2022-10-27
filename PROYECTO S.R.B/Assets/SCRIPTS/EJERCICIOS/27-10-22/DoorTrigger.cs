@@ -12,5 +12,7 @@ public class DoorTrigger : playertrigger
     {
         doorAnimator.SetBool("OpenDoor", doorIsOpen);
         doorIsOpen = !doorIsOpen;
+
+        //doorAnimator.SetTrigger();
     }
 }
